@@ -1,6 +1,4 @@
 const { WebSocket } = require("ws");
-const { v4: uuidv4 } = require("uuid");
-const { default: generateNickname } = require("./nicknames");
 
 const wss = new WebSocket.Server({ port: 3000 });
 

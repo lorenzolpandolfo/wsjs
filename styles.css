@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   object-fit: contain;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Montserrat", sans-serif;
   color: whitesmoke;
 }
 
@@ -20,10 +22,10 @@ input {
 
 button {
   padding: 5px;
-  min-width: 100px;
   font-size: 16px;
   color: black;
   border: 0;
+  min-width: 75px;
 }
 
 button:hover {
@@ -45,7 +47,6 @@ header {
 .user-area {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
   gap: 5px;
 }
@@ -54,9 +55,9 @@ p {
   margin: 20px 0;
   border-radius: 7px;
   padding: 5px;
-  line-height: 20px;
-  font-weight: 600;
+  line-height: 25px;
   background-color: rgb(99, 167, 167);
   overflow-y: auto;
   height: 230px;
+  font-size: 14px;
 }
